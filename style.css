@@ -33,3 +33,14 @@ header {
 
    border: 1px solid #666; /* dark outline */
 }
+nav li:active {
+    background-color: #ccc;
+    background-image: none;
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+  }
+  footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
